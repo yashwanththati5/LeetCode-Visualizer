@@ -1,0 +1,5 @@
+Python >= 3.10
+Flask >= 2.2.3
+pip3 install -U requests
+pip3 install -U lxml
+pip3 install -U BeautifulSoup
