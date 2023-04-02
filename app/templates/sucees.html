@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Vis</title>
+    <link rel="icon" href="img/leetcode.webp">
+    <link rel="stylesheet" href="/staticfiles/sstyle.css">
+</head>
+<body>
+    <h2 id = "title1">Welcome To <span id = "span1">LeetCode Visualizer!</span> </h2>
+    <form action="/goback" method = "post">
+        <input type="submit" name = "submit" value = "Go Back" id = "submit">
+    </form>
+    <div id = "label">
+        <h2 id = "name">The User: <span id = "span3">{{data[0]}}</span></h2>
+    <div id = "prbolems">
+        <h3>Overall user has solved <span id = "span3">{{data[1]}}</span> problems.</h3>
+    </div>
+    </div>
+    <div id = "diff">
+        <div id = "easy">
+            <div class="about-stats">
+            <div class="progress-bars">
+                <div class="progress-bar">
+                    <p class="prog-title" id="p"><b>Easy</b></p>
+                    <div class="progress-con">
+                        <p class="prog-text"><span id = "span2">{{data[4]}}</span>/639</p>
+                        <div class="progress">
+                            <span class="html"></span>
+                        </div>
+                    </div>
+                </div>
+                <div id = "contest">
+                    <h3 id = "aa">User Contest Details</h3>
+                    <ul>
+                        <li id = "a">The user attend <span id = "span3">{{data[2]}}</span> Contests.</li>
+                        <li id = "a">The user having present rating as <span id = "span3">{{data[3]}}</span>.</li>
+                    </ul>
+                </div>
+                <div class="progress-bar">
+                    <p class="prog-title" id="p"><b>Medium</b></p>
+                    <div class="progress-con">
+                    <p class="prog-text"><span id = "span2">{{data[5]}}</span>/1390</p>
+                        <div class="progress">
+                            <span class="node"></span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="progress-bar">
+                    <p class="prog-title" id="p"><b>Hard</b></p>
+                    <div class="progress-con">
+                        <p class="prog-text"><span id = "span2">{{data[6]}}</span>/583</p>
+                        <div class="progress">
+                            <span class="python"></span>
+                        </div>
+                    </div>
+    </div>
+</div>
+
+<footer>
+    <div class="copyright">
+        2023© LeetCode Visualizer | All Right Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

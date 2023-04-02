@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	scroll-behavior:smooth;
+	scroll-padding-top: 3rem;
+	font-family: "Trirong", serif;
+    background-color: whitesmoke;
+    font-size:20px;
+  }
+  :root {
+	--main-color: #033a80;
+	--bg-color: #F5F5F5;
+	--text-color: #0f0c27;
+	--hover: hsl(260, 100%, 51%);
+	--color-primary: #553c9a;
+	--color-secondary: #553c9a;
+	--color-white: crimson;
+	--color-black: #000;
+	--color-grey0: rgb(188, 222, 232);
+	--color-grey-4: #00c2cb;
+	--color-grey-5: #fff;
+	--color-grey-6: crimson;
+	--br-sm-2: 14px;
+	--box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  }
+h3{
+	font-size: 30px;
+}
+#name
+{
+	font-size: 30px;
+}
+#title1{
+font-size: 40px;
+}
+#span1
+{
+font-size: 40px;
+color: crimson;
+}
+#span2
+{
+    font-size: 23px;
+    color: crimson;
+}
+#label
+{
+  margin-top: 5%;
+  margin-left: 40%;
+}
+.about-stats {
+	padding-bottom: 4rem;
+  }
+  .about-stats .progress-bars {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1rem;
+  }
+  .about-stats .progress-bars .progress-bar {
+	display: flex;
+	flex-direction: column;
+  }
+  .about-stats .progress-bars .progress-bar .prog-title {
+	text-transform: uppercase;
+	font-weight: 500;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con {
+	display: flex;
+	align-items: center;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .prog-text {
+	color: var(--color-grey-2);
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress {
+	width: 100%;
+	height: 0.45rem;
+	background-color: var(--color-grey-4);
+	margin-left: 1rem;
+	position: relative;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background-color: var(--color-secondary);
+	transition: all 0.4s ease-in-out;
+	width: 30%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .html {
+	margin: 0;
+	width: 40%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .python {
+	margin: 0;
+	width: 20%;
+  }
+  #problems
+  {
+    margin-left: 10%;
+    margin-top: 20%;
+  }
+  #contest
+  {
+    float: right;
+	}
+#aa
+{
+	text-decoration: underline;
+}
+#submit
+  {
+    padding: 14px 40px;
+	border: 1px solid;
+    border-radius: 12px;
+	float: right;
+	margin-top: -2cm;
+  }
+  #submit:hover {
+    background-color: #033a80;
+    color: whitesmoke;
+  }
+#span3
+{
+	color: crimson;
+	font-size: 30px;
+}
+.copyright {	
+	margin-bottom: -100cm;
+	padding: 20px;
+	background: var(--main-color);
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+	}
+@media only screen and (max-width: 1200px){
+	#title1
+	{
+		font-size: 20px;
+	}
+	#label
+	{
+		margin-left: 15%;
+		overflow: hidden;
+	}
+	#diff
+	{
+		padding: 0px;
+	}
+}

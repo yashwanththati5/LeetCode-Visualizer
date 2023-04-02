@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+	scroll-behavior:smooth;
+	scroll-padding-top: 3rem;
+	font-family: "Trirong", serif;
+    background-color: whitesmoke;
+    font-size:20px;
+  }
+  #title1{
+    font-size: 40px;
+  }
+  #text
+  {
+    font-size: 27px;
+  }
+  #span1
+  {
+    font-size: 40px;
+    color: crimson;
+  }
+  #error
+  {
+    color: #D22B2B;
+  }
+  #label
+  {
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  #submit
+  {
+    padding: 14px 40px;
+    border-radius: 12px;
+  }
+  #submit:hover {
+    background-color: #033a80;
+    color: whitesmoke;
+  }
+  #reset
+  {
+    padding: 14px 40px;
+    border-radius: 12px;
+  }
+  #reset:hover {
+    background-color: #033a80;
+    color: whitesmoke;
+  }
+  @media only screen and (max-width: 1200px){
+    #text
+    {
+      font-size: 20px;
+    }
+    input[type=text] {
+      width: 100%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+    }
+    #label
+    {
+      margin-top: 5%;
+      margin-left: 15%;
+      margin-right: 2%;
+    }
+  }
